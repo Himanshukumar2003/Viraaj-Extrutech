@@ -50,11 +50,12 @@
     background-image: linear-gradient(233deg, var(--e-global-color-4e22e3a) 0%, #00091D 100%);
 }
 
-.choose-us-section h3, .choose-us-section h6 {
+.choose-us-section h3,
+.choose-us-section h6 {
     color: white;
 }
 
-.choose-us-section p {   
+.choose-us-section p {
     color: white;
 }
 
@@ -67,7 +68,7 @@
 
 .choose-card i {
     font-size: 40px;
-    color:#95a2ba;
+    color: #95a2ba;
     margin-bottom: 15px;
 }
 
@@ -83,7 +84,7 @@
     color: #D3D3D3;
     font-family: "Montserrat", Sans-serif;
     font-size: 12px !important;
-    font-weight: 400 ;
+    font-weight: 400;
 }
 
 
@@ -98,7 +99,7 @@
 .director-text {
     color: var(--text-gray);
     margin-top: 15px;
-    text-align:left;
+    text-align: left;
 }
 
 .quote-box {
@@ -122,7 +123,7 @@
 
 .director-role {
     font-size: 18px;
-    color: var(--global-color-primary-two); 
+    color: var(--global-color-primary-two);
     font-weight: bold;
 }
 
@@ -192,4 +193,46 @@
 
 .services-section {
     background: linear-gradient(135deg, var(--e-global-color-63bccb5) 0%, #ffffff 100%);
+}
+
+/* contact us */
+
+.contact-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-section {
+    background: #002a4d;
+    color: white;
+    height: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-info-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.info-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.info-contant {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.info-contant-right {
+    display: flex;
+    flex-direction: column;
+
 }
