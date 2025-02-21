@@ -446,6 +446,19 @@ h6 {
 
 }
 
+
+
+.list-two li{
+display: flex;
+gap: 5px;
+}
+
+.list-two li span{
+    color: var(--e-global-color-primary);
+    font-weight: 600;
+}
+
+
 .testimonial-text {
     color: var(--e-global-color-text);
     font-style: italic;
